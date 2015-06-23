@@ -30,7 +30,7 @@ return (data.frame(positive_residual_mean,negative_residual_mean))
 # Load RMySQL library.
 library('RMySQL')
 # Connect to database.
-mydb = dbConnect(MySQL(), user='root', password='your passwd', dbname='civicrm', host='localhost')
+mydb = dbConnect(MySQL(), user='root', password='your password', dbname='civicrm', host='localhost')
 # regression_table is the MySQL table that contains all the necessary data about mails.
 rs = dbSendQuery(mydb, "select * from mailing_data order by rand()")
 data = fetch(rs, n=-1)
