@@ -1,0 +1,17 @@
+README
+------
+
+Follow the given steps to generate the model and get the results on train and test data.
+
+1. Install R.
+Use the link http://www.r-project.org/ to install R on Windows/Mac/Linux.
+
+2. Run the install_packages.R script with root access. This file will install the required packages. Use the following command to run the script.
+> Rscript install_packages.R
+
+3. Change the values of user, host, password, dbname in line 33 in model.R file as per your configuration (This line connects to your MySQL server). Also ensure that 'mailing_data' table is the final table that contains all the data, or change the table accordingly in line 34.
+
+4. Run the model.R script and store its output in a file.
+> Rscript model.R > model_information.txt
+
+Here 'model_information.txt' file will have information about the stats of model. Also 2 files will be generated that will contain results of applying linear regression model on the train and test data.
