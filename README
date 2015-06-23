@@ -6,7 +6,7 @@ Given folder contains the following files:
 
 'mailing_clicks_analysis.sql' -> This sql file generates the table 'clicks_data_analytics' that contains all the data analytics(min, max, mean of click rates for each mailing).  
 
-R_dump_model -> This folder contains the R scripts to generate the linear regression model and apply it on train and test sets. It generates the results of the model on train and test sets in 'train_data_results.csv' and 'test_data_results.csv' files.
+model_R_code -> This folder contains the R scripts to generate the linear regression model and apply it on train and test sets. It generates the results of the model on train and test sets in 'train_data_results.csv' and 'test_data_results.csv' files.
 
 Results_dump -> This folder contains the analytics data stored in mailing_data_analytics and clicks_data analytics table (These are the results for the small dump.)
 
