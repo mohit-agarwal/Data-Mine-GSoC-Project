@@ -14,4 +14,4 @@ Use the link http://www.r-project.org/ to install R on Windows/Mac/Linux.
 4. Run the model.R script and store its output in a file.
 > Rscript model.R > model_information.txt
 
-Here 'model_information.txt' file will have information about the stats of model. Also 2 files will be generated that will contain results of applying linear regression model on the train and test data.
+Here 'model_information.txt' file will have information about the stats of model. Also 2 files (train_data_results.csv and test_data_results.csv) will be generated that will contain results of applying linear regression model on the train and test data.
