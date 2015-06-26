@@ -1,0 +1,17 @@
+README
+______
+
+Host this php file on your local server to use the linear prediction model and analyze its results on train and test data sets.
+
+REQUIREMENTS
+-> Apache
+-> Php
+-> MySQL
+-> R
+
+STEPS
+
+1. Place the prediction_php_module.php file in /var/ww/html.
+2. Give write and execute permissions to /var/www/html folder (You can change it again once you're done using this module) for all users.
+3. Open the url http://localhost/prediction_php_module.php.
+4. Use the form to select necessary parameters, generate the predictive model and analyze the results.
