@@ -14,6 +14,10 @@ This sql file generates the table 'clicks_data_analytics' that contains all the 
 
 This folder contains the R scripts to generate the linear regression model and apply it on train and test sets. It generates the results of the model on train and test sets in 'train_data_results.csv' and 'test_data_results.csv' files.
 
+**php_code**
+
+This folder contains php scripts to give end user an option to build the prediction model using the parameters he selects, and accordingly generate the results on train and test data.
+
 **Results_dump**
 
 This folder contains the analytics data stored in mailing_data_analytics and clicks_data analytics table (These are the results for the small dump.)
