@@ -19,6 +19,11 @@ Use this command to get the dump of the required tables :
 
 $ *mysqldump -u user_name -p database_name clicks_data clicks_data_analytics > clicks_dump.sql*
 
+**Run the above 2 scripts using the following command:**
+
+$ *mysql -u user_name -p database_name < sql_file_name.sql*
+
+
 **model_R_code**
 
 This folder contains the R scripts to generate the linear regression model and apply it on train and test sets. It generates the results of the model on train and test sets in 'train_data_results.csv' and 'test_data_results.csv' files.
