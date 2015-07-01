@@ -8,7 +8,7 @@ This sql file generates the table 'mailing_data_analytics' that contains all the
 
 Use this command to get the dump of the required tables :
 
-*mysqldump -u user_name -p database_name mailing_data mailing_data_analytics > mail_dump.sql*
+$ *mysqldump -u user_name -p database_name mailing_data mailing_data_analytics > mail_dump.sql*
 
 
 **mailing_clicks_analysis.sql**
@@ -17,7 +17,7 @@ This sql file generates the table 'clicks_data_analytics' that contains all the 
 
 Use this command to get the dump of the required tables :
 
-*mysqldump -u user_name -p database_name clicks_data clicks_data_analytics > clicks_dump.sql*
+$ *mysqldump -u user_name -p database_name clicks_data clicks_data_analytics > clicks_dump.sql*
 
 **model_R_code**
 
