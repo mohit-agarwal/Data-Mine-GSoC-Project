@@ -4,11 +4,20 @@ Given folder contains the following files:
 
 **mailing_sendopen_analysis.sql** 
 
-This sql file generates the table 'mailing_data_analytics' that contains all the data analytics(min, max, mean of delay(in seconds) in sending and opening of mails). It also generates a table 'mailing_data' that is used by model.R file in model_R_code folder to build the linear regression model. 
+This sql file generates the table 'mailing_data_analytics' that contains all the data analytics(min, max, mean of delay(in seconds) in sending and opening of mails). It also generates a table 'mailing_data' that is used by model.R file in model_R_code folder to build the linear regression model.
+
+Use this command to get the dump of the required tables :
+
+*mysqldump -u user_name -p database_name mailing_data mailing_data_analytics > mail_dump.sql*
+
 
 **mailing_clicks_analysis.sql**
 
 This sql file generates the table 'clicks_data_analytics' that contains all the data analytics(min, max, mean of click rates for each mailing).  
+
+Use this command to get the dump of the required tables :
+
+*mysqldump -u user_name -p database_name clicks_data clicks_data_analytics > clicks_dump.sql*
 
 **model_R_code**
 
