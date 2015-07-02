@@ -15,3 +15,9 @@ Use the link http://www.r-project.org/ to install R on Windows/Mac/Linux.
 > Rscript model.R > model_information.txt
 
 Here 'model_information.txt' file will have information about the stats of model. Also 2 files (train_data_results.csv and test_data_results.csv) will be generated that will contain results of applying linear regression model on the train and test data.
+
+-------------
+
+anfis.R
+
+I have added 'anfis.R' script that uses 'Adaptive Neuro Fuzzy Inference System' to build the prediction model. Run this script using the same steps and get the results on train and test data.
